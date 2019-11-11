@@ -2,31 +2,44 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     background-color: #777;
-    width: 960px;
+    width: 1024px;
     font-size: 18px;
+    margin: 10px;
 }
 
 .header {
-    position: fixed;
+    position: static;
     left: 0;
     top: 0;
+    height: 50px;
     width: 100%;
-    height: 30px;
     padding: 10px;
+    margin: 10px;
     background-color:#ebebeb;
     color: #777;
     text-align: center;
+    border-bottom-width: 3px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color:lightskyblue;    
  }
 
 .nav {
     position: relative;
+    top: 20px;
     width: 100%;
-    height: 30px;
-    top: 30px;
     left: 0;
+    margin: 10px;
+    padding: 10px;
     background-color: #ebebeb;
-    padding: 30px;
-    margin: 50px;
+    border-bottom-width: 3px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color:lightskyblue;  
     text-align: center;
     
 }
@@ -34,7 +47,7 @@ body {
 a:link, a:visited {
     background-color: #777;
     color: white;
-    padding: 14px 25px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -46,18 +59,30 @@ a:hover, a:active {
 
 .container {
     position: relative;
+    top: 30px;
     float: left;
-    width: 300px;
     background-color:#ebebeb;
-    padding: 50px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
 }
+
+#section1 {
+    width: 495px;
+
+}
+
 
 #article1 {
     background-color: #777;
     color:#ebebeb;
-    margin: auto;
-    padding: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-bottom-width: 0;
+    border-top: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color:lightskyblue; 
 }
 
 #articleContent {
@@ -73,21 +98,31 @@ a:hover, a:active {
 
 .aside {
     position: relative;
+    top: 30px;
+    width: 385px;
+    height: 270px;
     float: right;
-    width: 300px;
     background-color:#ebebeb;
-    padding: 50px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
+    overflow: scroll;
 }
 
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 30px;
-    width: 100%;
+    height: 50px;
+    width: 75%;
     padding: 10px;
+    margin: 20px;
     background-color:#ebebeb;
     color: #777;
     text-align: center;
+    border-bottom-width: 0;
+    border-top: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color:lightskyblue; 
  }
