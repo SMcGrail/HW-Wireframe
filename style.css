@@ -2,17 +2,19 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     background-color: #777;
-    width: 1024px;
+    width: 960px;
     font-size: 18px;
-    margin: 10px;
+    margin: auto;
+    
 }
 
 .header {
     position: static;
+    display: inline-block;
     left: 0;
     top: 0;
     height: 50px;
-    width: 100%;
+    width: 930px;
     padding: 10px;
     margin: 10px;
     background-color:#ebebeb;
@@ -26,12 +28,18 @@ body {
     border-color:lightskyblue;    
  }
 
+ #pHeader {
+     font-size: 50px;
+     margin: 0;
+     padding: 0;
+ }
+
 .nav {
     position: relative;
-    top: 20px;
-    width: 100%;
+    width: 930px;
     left: 0;
     margin: 10px;
+    margin-top: 0;
     padding: 10px;
     background-color: #ebebeb;
     border-bottom-width: 3px;
@@ -57,20 +65,16 @@ a:hover, a:active {
     background-color: lightskyblue;
 }
 
+
 .container {
     position: relative;
-    top: 30px;
+    top: 10px;
+    width: 495px;
     float: left;
     padding: 10px;
     margin: 10px;
     background-color:#ebebeb;
 }
-
-#section1 {
-    width: 495px;
-
-}
-
 
 #article1 {
     background-color: #777;
@@ -96,26 +100,36 @@ a:hover, a:active {
     color: #777;
 }
 
+
 .aside {
     position: relative;
-    top: 30px;
-    width: 385px;
-    height: 270px;
     float: right;
+    width: 385px;
+    top: 10px;
+    height: 270px;
     background-color:#ebebeb;
     padding: 10px;
-    margin: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
     overflow: scroll;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .footer {
-    position: fixed;
+    position: relative;
+    display: inline-block;
     left: 0;
     bottom: 0;
+    top: 30px;
     height: 50px;
-    width: 75%;
+    width: 930px;
+    margin: 10px;
     padding: 10px;
-    margin: 20px;
     background-color:#ebebeb;
     color: #777;
     text-align: center;
