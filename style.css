@@ -20,7 +20,7 @@ body {
     background-color:#ebebeb;
     color: #777;
     text-align: center;
-    text-shadow: 2px 2px 5px lightskyblue;
+    text-shadow: 2px 2px lightskyblue;
     border-bottom-width: 3px;
     border-top: 0;
     border-left: 0;
@@ -59,7 +59,7 @@ a:link, a:visited {
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
-    text-shadow: 2px 2px 4px lightskyblue;
+    text-shadow: 1px 1px 5px lightskyblue;
     display: inline-block;
 }
       
@@ -76,6 +76,7 @@ a:hover, a:active {
     float: left;
     padding: 10px;
     margin: 10px;
+    margin-bottom: 0;
     background-color:#ebebeb;
     
 }
@@ -87,7 +88,7 @@ a:hover, a:active {
 #article1 {
     background-color: #777;
     color:#ebebeb;
-    margin: 10px;
+    margin: 0;
     padding: 10px;
     height: 200px;
     border-bottom-width: 0;
